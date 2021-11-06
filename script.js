@@ -27,7 +27,7 @@ function validate_principal() {
 
 
 function compute() {
-    console.log("got here")
+    // console.log("got here")
     var principal = document.getElementById("principal").value;
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
