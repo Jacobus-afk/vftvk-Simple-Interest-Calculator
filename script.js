@@ -18,8 +18,9 @@ function validate_principal() {
     if (principal.value <= 0) {
         alert("Enter a positive number");
         principal.value = null;
-        principal.focus();
         button.disabled = true;
+        // principal.focus();
+        setTimeout(function() { principal.focus(); }, 1);
         return;
     }
     button.disabled = false;
